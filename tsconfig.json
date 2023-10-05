@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6", // или более высокая версия, если требуется
+      "module": "NodeNext",
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "NodeNext", // Добавьте эту опцию
+      // Другие настройки TypeScript...
+    },
+    "include": ["./**/*.ts"], // Путь к вашим файлам TypeScript
+    "exclude": ["node_modules"]
+  }
+  
